@@ -1,4 +1,4 @@
-package cn.zplay.utils;
+package com.sampson.utils;
 
 import com.sampson.utils.DateUtils;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package cn.zplay.utils;
+package com.sampson.utils;
 
 import junit.framework.TestCase;
 import org.junit.Test;
