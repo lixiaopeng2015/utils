@@ -1,4 +1,4 @@
-package main.java.com.sampson.utils;
+package com.sampson.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

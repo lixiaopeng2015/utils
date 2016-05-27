@@ -1,6 +1,6 @@
 package cn.zplay.utils;
 
-import main.java.com.sampson.utils.DateUtils;
+import com.sampson.utils.DateUtils;
 import junit.framework.TestCase;
 import org.junit.Test;
 
@@ -43,23 +43,17 @@ public class DateUtilsTest extends TestCase{
         System.out.println(s);
     }
 
-    public void testValidDate(){
-        String date = "2003-02-15";
-        boolean b = DateUtils.validDateFormat(date,"yyyyMMdd");
-        System.out.println(b);
-    }
-
     @Test
     public void testDateUtils(){
-//        testParse();
-//        testGetTimeSpace();
-//        testGetFutureDate();
-//        try {
-//            testGetAbsoluteDate();
-//        } catch (ParseException e) {
-//            e.printStackTrace();
-//        }
-        testValidDate();
+        testParse();
+        testGetTimeSpace();
+        testGetFutureDate();
+        try {
+            testGetAbsoluteDate();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
     }
 
 

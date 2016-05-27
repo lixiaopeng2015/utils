@@ -1,4 +1,4 @@
-package main.java.com.sampson.utils;
+package com.sampson.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -338,18 +338,6 @@ public class DateUtils implements Serializable{
      */
     public static Date addDateByMinutes(Date date, int minutes) {
         return addDays(date, minutes, MIN_TIMES);
-    }
-
-    //判断是否为日期类型
-    public static boolean validDateFormat(String dateStr,String pattern) {
-        try {
-            SimpleDateFormat sdf = new SimpleDateFormat(pattern);
-            sdf.parse(dateStr);
-            return true;
-        } catch (ParseException e) {
-            logger.error("The date from is illegal !");
-        }
-           return false;
     }
 
 }

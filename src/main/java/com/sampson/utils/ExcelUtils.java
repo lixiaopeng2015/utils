@@ -1,4 +1,4 @@
-package main.java.com.sampson.utils;
+package com.sampson.utils;
 
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
